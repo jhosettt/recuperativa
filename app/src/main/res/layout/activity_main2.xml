@@ -1,0 +1,75 @@
+<!-- res/layout/activity_location_input.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese las Coordenadas de los Puntos de Interés"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Entrada para Latitud y Longitud del Punto 1 -->
+    <EditText
+        android:id="@+id/latitude1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Latitud 1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/longitude1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitud 1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Entrada para Latitud y Longitud del Punto 2 -->
+    <EditText
+        android:id="@+id/latitude2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitud 2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/longitude2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitud 2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Entrada para Latitud y Longitud del Punto 3 -->
+    <EditText
+        android:id="@+id/latitude3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitud 3"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/longitude3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitud 3"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botón para guardar o continuar -->
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar" />
+</LinearLayout>
